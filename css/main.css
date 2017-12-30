@@ -1,0 +1,44 @@
+html {
+  box-sizing: border-box;
+  background-color: #f0eee8;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.link-card {
+  border: 3px solid #785439;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  text-align: left;
+  font-size: 1.5rem;
+  color: #512200;
+}
+
+p {
+  font-size: 1rem;
+  text-align: left;
+  font-family: Georgia;
+  color: #512200;
+}
